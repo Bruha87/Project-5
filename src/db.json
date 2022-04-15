@@ -1,0 +1,125 @@
+{
+//   "activities": [
+//     {
+//       "id": 1,
+//       "title": "Archery",
+//       "catagory": "Outdoor Activites",
+//       "difficulty": "Beginner",
+//       "age requirment": "ages 10+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "Archery Tent",
+//       "hours": "9am-10am",
+//       "start": "9:00 AM"
+//     },
+//     {
+//       "id": 2,
+//       "title": "Sailing",
+//       "catagory": "Water Activites",
+//       "difficulty": "intermediate",
+//       "age requirment": "ages 15+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "The Lake",
+//       "hours": "1pm-3pm",
+//       "start": "1:00 PM"
+//     },
+//     {
+//       "id": 3,
+//       "title": "Canoeing",
+//       "catagory": "Outdoor Activites",
+//       "difficulty": "Beginner",
+//       "age requirment": "ages 10+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "The Lake",
+//       "hours": "10am-11am",
+//       "start": "10:00 AM"
+//     },
+//     {
+//       "id": 4,
+//       "title": "Rock Climbing",
+//       "catagory": "Outdoor Activities",
+//       "difficulty": "Beginner",
+//       "age requirment": "ages 10+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "The Rockwall",
+//       "hours": "9am-10am",
+//       "start": "9:00 aM"
+//     },
+//     {
+//       "id": 5,
+//       "title": "Wakeboarding",
+//       "catagory": "Water Activities",
+//       "difficulty": "intermediate",
+//       "age requirment": "ages 15+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "The Lake",
+//       "hours": "2pm-4pm",
+//       "start": "2:00 PM"
+//     },
+//     {
+//       "id": 6,
+//       "title": "Survival Skills",
+//       "catagory": "Outdoor Activities",
+//       "difficulty": "intermediate",
+//       "age requirment": "ages 15+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "Outside The Mess Hall",
+//       "hours": "9am-10am",
+//       "start": "9:00 AM"
+//     },
+//     {
+//       "id": 7,
+//       "title": "Cooking",
+//       "catagory": "Indoor Activities",
+//       "difficulty": "Beginner",
+//       "age requirment": "ages 10+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "Christines Cabin",
+//       "hours": "1pm-2pm",
+//       "start": "1:00 PM"
+//     },
+//     {
+//       "id": 8,
+//       "title": "Arts & Crafts",
+//       "catagory": "Indoor Activities",
+//       "difficulty": "Beginner",
+//       "age requirment": "ages 10+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "The Studio At Warehouse Live",
+//       "hours": "8pm-12am",
+//       "start": "8:00 PM"
+//     },
+//     {
+//       "id": 9,
+//       "title": "Board Games",
+//       "catagory": "Indoor Activities",
+//       "difficulty": "Beginner",
+//       "age requirment": "ages 10+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "The Mess Hall",
+//       "hours": "12am-1pm",
+//       "start": "12:00 AM"
+//     },
+//     {
+//       "id": 10,
+//       "title": "Riflery",
+//       "catagory": "Outdoor Activities",
+//       "difficulty": "Intermediate",
+//       "age requirment": "ages 15+",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "Riflery Range",
+//       "hours": "11am-12am",
+//       "start": "11:00 AM"
+//     },
+//     {
+//       "id": 11,
+//       "title": "Advanced Wakeboarding",
+//       "catagory": "Water Activities",
+//       "difficulty": "Advanced",
+//       "age requirment": "Senior Camper",
+//       "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F207312039%2F27285403131%2F1%2Foriginal.20220104-173650?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=02afd6fbedba83c0e1dd08fc9320f317",
+//       "location": "The lake",
+//       "hours": "9am-11am",
+//       "start": "9:00 AM"
+//     }
+//   ]
+// }

@@ -1,0 +1,13 @@
+
+
+.card_container{
+  /* background-color:rgb(148, 241, 8);  */
+  margin-top: 40px; 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(100rem, 16rem));  
+  grid-gap:20px; 
+  justify-content:center;
+  position: absolute;
+  top: 80px;
+ 
+}
