@@ -11,12 +11,19 @@ function App() {
 
   // const [wishlistArray, setWishlistArray] = useState([])
   const [activitiesArray, setActivitiesArray] = useState([])
+  const [usersArray, setUsersArray] = useState([])
 
 
   useEffect(() => {
     fetch('/activities')
     .then(res => res.json())
     .then(data => setActivitiesArray(data))
+  }, [])
+
+  useEffect(() => {
+    fetch('/users')
+    .then(res => res.json())
+    .then(data => setUsersArray(data))
   }, [])
 
   // function addWishlistActivity(wishlistActivity) {
@@ -34,7 +41,8 @@ function App() {
           </Route>
           <Route path="/activities">
             <ActivityContainer 
-              activitiesArray={activitiesArray} 
+              activitiesArray={activitiesArray}
+              usersArray={usersArray}
               />
           </Route>
           <Route path="/users">

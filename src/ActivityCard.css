@@ -43,3 +43,11 @@
     font-family: Oxygen, sans-serif;
     /* margin:2rem; */
   }
+
+  .users {
+    display: none;
+  }
+
+  .card_details:hover .users {
+    display: flex;
+  }

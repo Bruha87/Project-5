@@ -3,12 +3,12 @@ import React from 'react'
 
 function UserProfileCard({user_activity}) {
   
-  // function handleDeleteComment(id) {
+  // function handleDeleteWishlist({user_activity}) {
   //   //Update State
-  //   const filteredComments = comments.filter(comment => comment.id !== id)
-  //   setComments(filteredComments)
+  //   const filteredWishlist = user_activity.filter(user_activity => user_activity.id !== id)
+  //   set(filteredComments)
   //   //Update DB
-  //   fetch(`http://localhost:3000/comments/${id}`, {
+  //   fetch('/user_activites', {
   //     method: "DELETE",
   //   })
   // }
@@ -24,7 +24,7 @@ function UserProfileCard({user_activity}) {
       <p>Age Required: {user_activity.activity.age_requirment}</p>
       <p>Hours: {user_activity.activity.hours}</p>
       <p>Start Time: {user_activity.activity.start}</p>
-      {/* <button className="completedButton" onClick={postActivity}> Add Activity to Wishlist </button> */}
+      {/* <button className="completedButton" onClick={handleDeleteWishlist}> Remove Activity From Wishlist </button> */}
       <div className="wishlist"></div>
       </div>
     </li>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ActivityCatagory from './ActivityCatagory';
 import "./ActivityContainer.css"
 
-function ActivityContainer({activitiesArray}) {
+function ActivityContainer({activitiesArray, usersArray}) {
 
   // const catagoryCoponents = activitiesArray.map( activity => <ActivityCard key={activity.id} activity = {activity}/>)
   // const [activitiesArray, setActivitiesArray] = useState([])
@@ -30,7 +30,10 @@ function ActivityContainer({activitiesArray}) {
   return (
     <main>
       <ul className="card_container">
-      <ActivityCatagory activitiesArray={activitiesArray}/>
+      <ActivityCatagory 
+      activitiesArray={activitiesArray}
+      usersArray={usersArray}
+      />
       </ul>
     </main>
   )

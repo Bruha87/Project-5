@@ -2,21 +2,25 @@ import React, { useState } from "react";
 import ActivityCard from "./ActivityCard"
 import "./ActivityCatagory.css"
 
-function ActivityCatagory({activitiesArray}) {
+function ActivityCatagory({activitiesArray, usersArray}) {
 
-  const [wishlist, setWishlist] = useState([]);
-
-  const handleToggle = (activity) => {
-    console.log(activity);
-  }
-
-  const cardCoponents = activitiesArray.map( activity => <ActivityCard key={activity.id} activity={activity} handleToggle={handleToggle} />)
+  const cardCoponents = activitiesArray.map( activity => <ActivityCard key={activity.id} activity={activity} />)
+  const userCoponents = usersArray.map( user => <ActivityCard key={user.id} user={user} />)
   
+  // const handleToggle = (activity) => {
+  //   console.log(activity);
+  // }
+
+  // const handleToggle = (user) => {
+  //   console.log(user);
+  // }
+
   return (
     <main>
       <div className="catagories">
         <ul>
           {cardCoponents}
+          {userCoponents}
         </ul>
       </div>
     </main>
