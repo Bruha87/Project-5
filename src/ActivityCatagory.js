@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import ActivityCard from "./ActivityCard"
 import "./ActivityCatagory.css"
 
-function ActivityCatagory({activitiesArray, usersArray}) {
+function ActivityCatagory({activitiesArray}) {
 
   const cardCoponents = activitiesArray.map( activity => <ActivityCard key={activity.id} activity={activity} />)
-  const userCoponents = usersArray.map( user => <ActivityCard key={user.id} user={user} />)
+  
   
   // const handleToggle = (activity) => {
   //   console.log(activity);
@@ -20,7 +20,7 @@ function ActivityCatagory({activitiesArray, usersArray}) {
       <div className="catagories">
         <ul>
           {cardCoponents}
-          {userCoponents}
+          
         </ul>
       </div>
     </main>

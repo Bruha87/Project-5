@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ActivityCatagory from './ActivityCatagory';
 import "./ActivityContainer.css"
 
-function ActivityContainer({activitiesArray, usersArray}) {
+function ActivityContainer({activitiesArray}) {
 
   // const catagoryCoponents = activitiesArray.map( activity => <ActivityCard key={activity.id} activity = {activity}/>)
   // const [activitiesArray, setActivitiesArray] = useState([])
@@ -23,7 +23,7 @@ function ActivityContainer({activitiesArray, usersArray}) {
   //   setSearchTerm(e.target.value)
   // }
 
-  // const filteredActivites = activitiesArray.filter(activity => activity.name)
+  // const filteredUsers = activitiesArray.filter(user => user.name)
 
   // const catagoryCoponents = activitiesArray.map( activity => <ActivityCatagory key={activity.id} {...activity}/>)
  
@@ -32,7 +32,7 @@ function ActivityContainer({activitiesArray, usersArray}) {
       <ul className="card_container">
       <ActivityCatagory 
       activitiesArray={activitiesArray}
-      usersArray={usersArray}
+      
       />
       </ul>
     </main>

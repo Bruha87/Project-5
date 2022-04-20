@@ -2,7 +2,7 @@ import React, { useState,  } from "react";
 import "./ActivityCard.css";
 // import UserProfile from "./UserProfile";
 
-function ActivityCard({activity, user}) {
+function ActivityCard({activity}) {
 
   // const[isClicked, setIsClicked] = useState(false)
   // const [addToWishlist, setAddToWishlist] = useState("")
@@ -44,7 +44,7 @@ function ActivityCard({activity, user}) {
       <p>Hours: {activity.hours}</p>
       <p>Start Time: {activity.start}</p>
       <button className="completedButton" onClick={postActivity}> Add Activity to Wishlist </button>
-      <div className="users">Camper List {user.name}</div>
+      {/* <div className="users">Camper List {filteredUsers.name}</div> */}
       </div>
     </li>
 
