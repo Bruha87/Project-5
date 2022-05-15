@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import ActivityCard from "./ActivityCard"
 import "./ActivityCatagory.css"
+import { Link } from "react-router-dom";
 
-function ActivityCatagory({activitiesArray}) {
+function ActivityCatagory({activitiesArray, userList}) {
 
-  const cardCoponents = activitiesArray.map( activity => <ActivityCard key={activity.id} activity={activity} />)
+  // function userList(id) {
+  //   const filteredUserList = activitiesArray.filter(user => user.id !==id)
+  //   setUserArray(filteredUserList)
+  // }
   
+  const cardCoponents = activitiesArray.map( activity => <ActivityCard key={activity.id} activity={activity} userList={userList}/>)
   
   // const handleToggle = (activity) => {
   //   console.log(activity);
@@ -18,9 +23,8 @@ function ActivityCatagory({activitiesArray}) {
   return (
     <main>
       <div className="catagories">
-        <ul>
+        <ul className="the-cards">
           {cardCoponents}
-          
         </ul>
       </div>
     </main>

@@ -2,11 +2,12 @@ import React, { useState,  } from "react";
 import "./ActivityCard.css";
 // import UserProfile from "./UserProfile";
 
-function ActivityCard({activity}) {
+function ActivityCard({activity, userList}) {
 
   // const[isClicked, setIsClicked] = useState(false)
   // const [addToWishlist, setAddToWishlist] = useState("")
 
+  // const userList = activity.map( user => key={user.id} {...user})
 
   
   // function handleSubmit(e){
@@ -34,17 +35,18 @@ function ActivityCard({activity}) {
 
   return (
     <li className="card">
-      <img src={activity.image} alt={activity.name}/>
+      {/* <img src={activity.image_url} alt={activity.name}/> */}
       <h3 className="card_name">{activity.name}</h3>
       <h4 className="card_catagory">{activity.catagory}</h4>
       <div className="card_details">
-      <p>Location: {activity.location}</p>
-      <p>Difficulty: {activity.difficulty}</p>
-      <p>Age Required: {activity.age_requirment}</p>
-      <p>Hours: {activity.hours}</p>
-      <p>Start Time: {activity.start}</p>
+      <h5>Location: {activity.location}</h5>
+      <h5>Difficulty: {activity.difficulty}</h5>
+      <h5>Age Required: {activity.age_requirment}</h5>
+      <h5>Hours: {activity.hours}</h5>
+      <h5>Start Time: {activity.start}</h5>
       <button className="completedButton" onClick={postActivity}> Add Activity to Wishlist </button>
-      {/* <div className="users">Camper List {filteredUsers.name}</div> */}
+      {/* <div className="users">Camper List {activity.user.name}</div> */}
+      {/* <li>{activity.user.name}</li> */}
       </div>
     </li>
 

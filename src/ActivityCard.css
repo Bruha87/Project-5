@@ -3,9 +3,9 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   box-sizing: border-box;
   transition: 0.3s;
-  width: 100%;
+  width: 111%;
   height: 400px;
-  background: white;
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,12 +14,34 @@
   flex-direction: column;
   list-style: none;
   margin: 10px;
-  padding: 0;
+  padding: 10;
+  color: white;
   }
 
-  .card_title{
+  /* .card_title{
     display: flex;
     font-family: Oxygen, sans-serif;
+  } */
+
+  button{
+    background-color: rgb(102, 53, 116);
+    color: white;
+    font-family: fantasy;
+  }
+
+  h3{
+    font-family: fantasy;
+    font-size: x-large;
+  }
+
+  h4{
+    font-family: fantasy;
+    font-size: large;
+  }
+
+  h5{
+    font-family: fantasy;
+    font-size: x-small;
   }
 
   /* .card_catagory{

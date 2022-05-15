@@ -9,7 +9,7 @@ function UserProfileContainer({wishlistArray, deleteFromWishlist}) {
   
   return (
     <div className="home">
-      <ul>
+      <ul id="userCard">
       {wishlistCard}
       </ul>
     </div>
